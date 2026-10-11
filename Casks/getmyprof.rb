@@ -4,9 +4,9 @@
 cask "getmyprof" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.3.0"
-  sha256 arm:   "8e87fa0099d85b1585cf706b2253f3eb1ade7bb78d827c813dce237ab9497339",
-         intel: "1373ff9e1698c9123aa5bcf4b79ffa29e1ecac9ce4c099e84da9b96e1552acc0"
+  version "0.4.0"
+  sha256 arm:   "e2990d76ef92a433846363ea4ebe3e453594ceaf35551ea8be4e68d4872d0e81",
+         intel: "ad7ff9b6d0f799b7e79b6278dfcf78a93fa06821943c6cd72a3704c36e8e698d"
 
   url "https://github.com/EhsanulHaqueSiam/getmyprof/releases/download/v#{version}/getmyprof-#{version}-#{arch}.dmg"
   name "getmyprof"
